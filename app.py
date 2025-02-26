@@ -8,7 +8,7 @@ from email.mime.text import MIMEText
 from bson.objectid import ObjectId
 
 app = Flask(__name__)
-app.secret_key = os.urandom(24)  # Secret key for session management
+app.secret_key = '7771' # Secret key for session management
 
 # MongoDB connection
 client = MongoClient('mongodb+srv://studyhive2027:strawberrybiryani@cluster0.cozu9.mongodb.net/')
